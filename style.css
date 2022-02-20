@@ -2,99 +2,52 @@
     margin:0px;
     padding: 0px;
     
-    
+    background-color: #000;
 }
-
-
-
-
-
-
 nav{
-    
-    padding:30px 2%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-nav ul{
-    flex: 1;
-    text-align: right;
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin:10px 29px;
-}
-nav ul li a{
-    color:#fff;
-    text-decoration: none;
-    font-size: 17px;
-}
-.login-btn{
-    margin:10px auto 0;
-}
-.login-btn a{
-    width:100px;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-    margin:0 10px;
-    padding: 12px 0;
-    color:rgb(255, 255, 255);
-    border: 2px solid rgb(255, 255, 255);
-    position: relative;
-    z-index: 1;
-    transition: color 0.5s;
-}
-.login-btn a span{
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top:0;
-    left:0;
-    background: #fff;
-    z-index: -1;
-    transition: 0.4s;
-}
-.login-btn a:hover span{
+.logo{
     width:100%;
-}
-.login-btn a:hover{
-    color:#000;
-}
-
-h1{
-    position:sticky;
-    top:0px;
-    left:0px;
-    color:rgb(0, 0, 0);
-}
-
+    height:100%;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    }
 .slide{
-    
-    
     margin:0;
     padding:0;
+    position: absolute;
+
 }
 #slider{
     margin:0px;
     padding:0px; 
     overflow: hidden;
+   
 }
 #slider figure{
     position: relative;
     width:500%;
     margin:0;
     animation: 25s slider infinite;
-
+   
 }
 #slider figure img{
     width:20%;
     float:left;
+    
+
 }
 .slider{
     width:1000px;
     margin-left: 200px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-position: center;
+    background-size: cover;
 }
 @keyframes slider{
     0%{
@@ -125,5 +78,48 @@ h1{
         left:-400%;
     }
 
+}  
+.login-btn{
+    margin:0px auto 0;
+    padding:20px;
+    flex: 1;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+.login-btn a{
+    width:100px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin:0 10px;
+    padding: 12px 0;
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.login-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-btn a:hover span{
+    width:100%;
+}
+.login-btn a:hover{
+    color:#000;
 }
 
