@@ -123,3 +123,22 @@ nav{
     color:#000;
 }
 
+.container p{
+    color:#fff;
+    margin:35px;
+    font-size: 34px;
+    text-align: center;
+    text-decoration:none;
+    text-transform: lowercase;
+}
+h1{
+    color:aqua;
+    font-size: 50px;
+    margin-left: 25px;
+}
+.disc{
+    color:rgb(238, 255, 0);
+    font-size: 35px;
+    text-align: center;
+    
+}
