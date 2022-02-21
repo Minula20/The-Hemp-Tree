@@ -9,6 +9,8 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+
+
 .logo{
     width:100%;
     height:100%;
@@ -126,19 +128,64 @@ nav{
 .container p{
     color:#fff;
     margin:35px;
-    font-size: 34px;
+    font-size: 29px;
     text-align: center;
+    font-family: Geneva,Tahoma,Verdana,sans-serif; 
     text-decoration:none;
     text-transform: lowercase;
 }
 h1{
     color:aqua;
+    
     font-size: 50px;
     margin-left: 25px;
 }
 .disc{
     color:rgb(238, 255, 0);
+    font-family: Geneva,Tahoma,Verdana,sans-serif; 
+    margin:20px;
+
     font-size: 35px;
     text-align: center;
     
+}
+.galary-btn{
+    margin:0px auto 0;
+    padding:20px;
+    flex: 1;
+    text-align: center;
+    margin:0;
+}
+.galary-btn a{
+    width:100px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin:0 10px;
+    padding: 12px 0;
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.galary-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.4s;
+}
+.galary-btn a:hover span{
+    width:100%;
+}
+.galary-btn a:hover{
+    color:#000;
 }
