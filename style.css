@@ -130,19 +130,19 @@ nav{
     margin-right: 200px;
     font-size: 19px;
     text-align: center;
-    font-family: Geneva,Tahoma,Verdana,sans-serif; 
+    font-family: 'Noto Serif Display', serif;
     text-decoration:none;
     
 }
-h1{
-    color:rgb(255, 0, 0);
+.top h1{
+    color:rgb(0, 140, 255);
     
     font-size: 30px;
     margin-left: 25px;
 }
 .disc{
     color:rgb(0, 0, 0);
-    font-family: Geneva,Tahoma,Verdana,sans-serif; 
+    font-family: 'Noto Serif Display', serif;
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 40px;
@@ -197,4 +197,52 @@ h1{
 }
 .galary-btn a:hover{
     color:rgb(255, 255, 255);
+}
+.Other-industy h1{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 23px;
+}
+.row ul{
+    list-style: none;
+    
+    justify-content: space-between;
+    display: inline-block;
+    margin-left: 100px;
+}
+.row ul li{
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
+    padding: 40px;
+  
+}
+.industry-col{
+    flex: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.industry-col img{
+    width: 300px;
+    height: 300px;    
+}
+.layer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    top:0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+
 }
