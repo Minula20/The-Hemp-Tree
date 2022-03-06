@@ -267,4 +267,88 @@ nav{
     bottom: 49%;
     opacity: 1;
 }
+.form1 input[type="text"]{
+	height: 20px;
+	padding:12px 20px;
+	margin: 8px 0;
+	display:inline-block;
+	border:1px solid rgb(0, 0, 0);
+	box-sizing:border-box;
+	color: rgb(0, 0, 0);
+	background-color: #000000;
+} 
+.form1 input[type="submit"]{
+	height: 30px;
+	width: 100px;
+	background-color: #19095f;
+	color:rgb(255, 255, 255);
+	padding:0px 0px;
+	margin:8px 0;
+	cursor:pointer;
+	font-size:14px;
+	border-radius: 0px;
+}
+.containt5{
+
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+footer{
+	text-align:center;
+	height: 200px;
+	background-color: #0d443b;
+	color: rgb(0, 0, 0);
+}
+.end-bar {
+    padding: 20px;
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .end-bar:hover {
+      opacity: 0.7;
+  }
+  .socialmedia {
+    text-align: center;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 200px;
+    width: 60px;
+    margin: 10px 4px;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+   
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-twitter {
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-google {
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-linkedin {
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-youtube {
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-instagram {
+    color: rgb(0, 0, 0);
+  }
 
