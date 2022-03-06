@@ -1,4 +1,4 @@
-body {
+.contain {
     background-color: rgb(217, 240, 224);
     font-family: Arial, Helvetica, sans-serif;
     width: 960px; 
@@ -42,5 +42,13 @@ p {
     margin: auto;
 
 }
-
+footer{
+	text-align:center;
+	height: 200px;
+	background-color: #0d443b;
+	color: rgb(0, 0, 0);
+}
+footer p{
+    color:white;
+}
 
