@@ -3,7 +3,14 @@ height:80%;
 width:100%;
 display:flex;
 margin:5% auto 0;
-box sizing:border-box;}
+box-sizing:border-box;}
+
+footer{
+	text-align:center;
+	height: 200px;
+	background-color: #0d443b;
+	color: rgb(0, 0, 0);
+}
 
 .image-box{
 margin:0 1%;
